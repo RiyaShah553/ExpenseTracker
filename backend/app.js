@@ -18,7 +18,7 @@ mongoose
 
 // ! cors configuration
 const corsOptions = {
-    origin: ['https://expense-tracker-frontend-eight.vercel.app/'],
+    origin: ['https://expense-tracker-frontend-eight.vercel.app'],
     method:["POST","GET"],
     credentials:true
 }
