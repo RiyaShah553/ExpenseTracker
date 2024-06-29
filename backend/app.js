@@ -5,7 +5,8 @@ const userRouter = require('./routes/userRouter');
 const errorHandler = require('./middlewares/errorHandlerMiddleware');
 const categoryRouter = require('./routes/categoryRoute');
 const transactionRouter = require('./routes/transactionRouter');
-const URL = 'mongodb://localhost:27017/mern-expenses';
+const URL = 'mongodb+srv://shahriya553:<password>@cluster0.kuafdws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+require('dotenv').config()
 const app = express();
 
 
