@@ -18,7 +18,7 @@ mongoose
 
 // ! cors configuration
 const corsOptions = {
-    origin: ['http://localhost:5173'],
+    origin: ['https://expense-tracker-frontend-eight.vercel.app/'],
     method:["POST","GET"],
     credentials:true
 }
