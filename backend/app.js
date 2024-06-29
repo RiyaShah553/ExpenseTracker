@@ -23,7 +23,9 @@ const corsOptions = {
     credentials:true
 }
 app.use(cors(corsOptions));
-
+app.get('/',(req,res)=>{
+res.json('hello');
+})
 // ! Middlewares
 // pass incoming json data
 app.use(express.json());
